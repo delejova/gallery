@@ -1,0 +1,43 @@
+@import "src/assets/base";
+
+.container {
+  width: 304px;
+  height: 295px;
+  background: $white 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 24px $grey-2;
+  border-radius: 4px;
+  position: relative;
+}
+
+.count {
+  position: absolute;
+  z-index: 2;
+  top: 16px;
+  left: 16px;
+  width: fit-content;
+  padding: 5px 12px;
+  font-size: 12px;
+  line-height: 14px;
+  background: $grey-3 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  color: $white;
+}
+
+.image {
+  border-radius: 4px 4px 0px 0px;
+  width: 304px;
+  height: 228px;
+  object-fit: cover;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 304px;
+  height: 67px;
+  background-color: $white;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 0 0 4px 4px;
+}

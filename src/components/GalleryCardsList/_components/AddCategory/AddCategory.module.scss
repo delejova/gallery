@@ -1,0 +1,27 @@
+@import "src/assets/base";
+
+.container {
+  width: 304px;
+  height: 295px;
+  background: $white 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 24px $grey-2;
+  border-radius: 4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  opacity: 0.32;
+}
+
+.label {
+  margin-top: 16px;
+}
